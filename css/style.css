@@ -1,0 +1,205 @@
+        .firstLogo{
+            display: block;
+            min-width: 350px;
+            max-width: 800px;
+/*            max-height:  500px;*/
+            margin: auto;
+            margin-top: -220px;
+            margin-bottom: -150px;
+            overflow: hidden;
+        }
+        .secondLogo{
+            display:block;
+            margin-left: 20px;
+            width:470px;
+            height: 440px;
+            overflow: hidden;
+        }
+        .flex{
+            display: flex;
+            justify-content: flex-end;
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            background-color: lightgray;
+        }
+        [id^="theImg"]{
+            width:200px;
+            height: 120px;
+            margin: 8px;
+        }
+        .fullImg{
+            display: block;
+			margin: auto;
+            margin-top: 30px;
+            height: 85vh;
+		}
+        .modal{
+            display: none;
+			position: fixed;
+			width: 100%;
+			height: 100vh;
+			background-color: rgba(0, 0, 0, 0.55);
+			top: 0px;
+		}
+        span{
+            color:darkgrey;
+        }
+
+        input{
+            height: 23px;
+            margin-top: 7px;
+            margin-bottom: 7px;
+            font-family: newcurier;
+
+        }
+
+        .center{
+            margin:auto;
+        }
+        select{
+            width: 100%;
+        }
+        textarea{
+            width:100%;
+            margin-top: 7px;
+            margin-bottom: 7px;
+        }
+
+/*
+        .dinline{
+        display: inline;
+*/
+/*        }*/
+        body{
+            margin: 0;
+            font-family: monterey;
+             color:rgba(72, 112, 110, 1);
+            background-color: lightgray;
+        }
+        header{
+            margin: 0;
+            background-color: rgba(12, 167, 149, 0.35);
+            color: rgba(72, 112, 110, 1);
+            text-shadow: 1px 1px teal;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            font-family: monterey;
+            padding-left: 100px;
+            padding-right: 100px;
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 35px;
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 0;
+            margin-top: 0;
+            background-image:
+              linear-gradient(45deg, #ccc 25%, transparent 25%),
+              linear-gradient(135deg, #ccc 25%, transparent 25%),
+              linear-gradient(45deg, transparent 75%, #ccc 75%),
+              linear-gradient(135deg, transparent 75%, #ccc 75%);
+            background-size:25px 25px; /* Must be a square */
+            background-position:0 0, 12.5px 0, 12.5px -12.5px, 0px 12.5px; /* Must be half of one side of the square */
+        }
+        @font-face {
+            font-family: monterey;
+            src:url(monterey.ttf);
+        }
+        @font-face {
+            font-family: abril;
+            src:url(abril.otf);
+        }
+         footer{
+             background-color: rgba(12, 167, 149, 0.35);
+             margin: 0px;
+/*             border: 10px double darkgrey;*/
+        }
+        .thumbnail{
+            margin-bottom: 5px;
+              }
+        .firstImg{
+            width: 25%;
+            max-width: 200px;
+            margin: 15px;
+            margin-top: 0;
+            margin-left: 0;
+            margin-bottom: 5px;
+        }
+        article{
+             font-family: abril;
+            font-weight:inherit;
+        }
+        .articlePhoto{
+            width: 50%;
+            max-width: 300px;
+            margin: 15px;
+            margin-top: 0;
+            margin-left: 0;
+            margin-bottom: 5px;
+        }
+        .box{
+            background-color: lightgray;
+            text-align: justify;
+            padding: 30px;
+            margin: 14px;
+            border-top-right-radius: 50px;
+            box-shadow: 5px 15px 18px;
+        }
+        .mapbox{
+            padding: 20px;
+        }
+        .mapbox iframe{
+			width: 100%;
+		}
+        .h1{
+            margin: auto;
+        }
+        .artitle{
+            text-align: left;
+            font-size: 25px;
+            padding: 10px;
+        }
+        button{
+            background-color: rgba(23, 155, 140, 0.41);
+            color: teal;
+            font-family: newcurier;
+            font-weight: bold;
+            text-decoration:overline;
+            height: 50px;
+            width: 100px;
+            padding: 15px;
+/*             border-radius: 25px 25px 25px 25px;*/
+        }
+
+        .button{
+            background-color: lightgrey;
+            color: darkslategray;
+            margin: 10px;
+            padding: 2px;
+        }
+         .width100{
+            width:100%;
+            margin-left: 0px;
+             margin-right: 0px;
+
+        }
+        section{
+            background-color: rgba(4, 241, 206, 0.15);
+            margin: 0px;
+            margin-top: 0;
+            margin-bottom: 10px;
+/*            border: 10px double darkgrey;*/
+            font:
+        }
+        adress{
+            display:block;
+            font-size: 18px;
+            margin: 20px;
+            padding: 25px;
+            align-content: center;
+            background-color: lightgray;
+            box-shadow: 5px 10px 100px;
+            text-shadow: 0.7px 0.7px teal;
+        }

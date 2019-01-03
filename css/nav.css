@@ -1,0 +1,24 @@
+nav ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+nav ul li{
+    padding: 12px;
+    color: black;
+    background-color: rgba(84, 105, 109, 0.5);
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: monterey;
+    color: teal;
+    font-weight: bold;
+}
+nav ul li:hover{
+    background-color: black;
+    color: white;
+}
