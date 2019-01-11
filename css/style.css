@@ -1,17 +1,30 @@
+        .copyw{
+            margin-top: 0px;
+            margin-right: 20px;
+        }
         .firstLogo{
             display: block;
-            min-width: 350px;
-            max-width: 800px;
-/*            max-height:  500px;*/
+            width:100%;
+            min-height: 70px;
             margin: auto;
-            margin-top: -220px;
-            margin-bottom: -150px;
-            overflow: hidden;
         }
-        .secondLogoBox{
+        .topHeader{
+            margin: auto;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+        .flexCenter{
             display:flex;
             justify-content: center;
 
+        }
+        .logo2{
+            margin-top: 0px;
+            width: 55%;
+            height: 55%;
+            overflow: hidden;
         }
         .secondLogo{
             margin-top: 40px;
@@ -29,8 +42,8 @@
             background-color: lightgray;
         }
         [id^="theImg"]{
-            width:200px;
-            height: 120px;
+            width:250px;
+            height: 150px;
             margin: 8px;
         }
         .fullImg{
@@ -85,14 +98,13 @@
             background-color: rgba(12, 167, 149, 0.35);
             color: rgba(72, 112, 110, 1);
             text-shadow: 1px 1px teal;
+/*
             padding-top: 0px;
             padding-bottom: 0px;
+*/
             font-family: monterey;
-            padding-left: 100px;
-            padding-right: 100px;
             display: flex;
             flex-wrap: wrap;
-            font-size: 35px;
             justify-content: center;
             text-align: center;
             margin-bottom: 0;
@@ -155,9 +167,6 @@
         .mapbox iframe{
 			width: 100%;
 		}
-        .h1{
-            margin: auto;
-        }
         .artitle{
             text-align: left;
             font-size: 25px;
@@ -174,7 +183,11 @@
             padding: 15px;
 /*             border-radius: 25px 25px 25px 25px;*/
         }
+        button:hover{
+            background-color: black;
+            cursor: pointer;
 
+        }
         .button{
             background-color: rgba(23, 155, 140, 0.41);
             color: teal;
@@ -203,6 +216,7 @@
             display:block;
             font-size: 18px;
             margin: 20px;
+            margin-bottom: 10px;
             padding: 25px;
             align-content: center;
             background-color: lightgray;

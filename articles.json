@@ -1,41 +1,46 @@
 [{
                     "articleNr":1,
+                    "id":"calvin",
                     "mColClass":"mcol6",
                     "title":"Calvin Carris",
                     "url":"images/calvinharris.jpg",
                     "firstParagraph":"Adam Richard Wiles (born 17 January 1984), known professionally as Calvin Harris, is a Scottish DJ, record producer, singer, and songwriter. His debut studio album I Created Disco was released in June 2007; it spawned two UK top 10 singles, &quotAcceptable in the 80s&quot and &quotThe Girls&quot. In 2009, Harris released his second studio album, Ready for the Weekend, which debuted at number one on the UK Albums Chart and was later certified gold by the BPI. Its lead single, &quotI'm Not Alone&quot, became his first song to top the UK &quotSingles Chart.",
-                    "buttonUrl":"calvinharris.html"
+                    "buttonUrl":"articles/calvinharris.php"
                     },
                     {
                     "articleNr":2,
+                    "id":"bastille",
                     "mColClass":"mcol6",
                     "title":"Bastille",
                     "url":"images/bastille.jpg",
                     "firstParagraph":"Bastille (stylised as BΔSTILLE) are a British band formed in 2010. The group began as a solo project by lead vocalist Dan Smith, but later expanded to include keyboardist Kyle Simmons, bassist and guitarist Will Farquarson and drummer Chris Wood. The name of the band derives from Bastille Day, which is celebrated on 14 July, the date of Smith&quotss birthday. After an independently released debut single and a self-released EP, the band signed to Virgin Records. Their first studio album, Bad Blood, was released in March 2013 and entered the UK Albums Chart at number one and included the hit single &quotPompeii&quot. ",
-                    "buttonUrl":"bastille.html"
+                    "buttonUrl":"articles/bastille.php"
                     },
                     {
                     "articleNr":3,
+                    "id":"julia",
                     "mColClass":"mcol6",
                     "title":"Julia Michaels",
                     "url":"images/julia.jpg",
                     "firstParagraph":"Julia Carin Cavazos (born November 13, 1993),known by her stage name Julia Michaels, is an American singer and songwriter from Davenport, Iowa. Michaels released her debut solo single with Republic Records in 2017, &quotIssues&quot, which peaked at number 11 on the Billboard Hot 100 in the United States, was certified triple-platinum by the Recording Industry Association of America (RIAA), and garnered her Grammy Award nominations for Song of the Year and Best New Artist. ",
-                    "buttonUrl":"julia.html"
+                    "buttonUrl":"articles/julia.php"
                     },
                     {
                     "articleNr":5,
+                    "id":"chet",
                     "mColClass":"mcol6",
                     "title":"Chet Faker",
                     "url":"images/faker.jpg",
                     "firstParagraph":"Nicholas James Murphy (born 23 June 1988), known by his stage name Chet Faker, is an Australian singer and songwriter. In 2012, he issued an extended play, Thinking in Textures, and signed to Downtown Records in the United States. In October 2012, he won Breakthrough Artist of the Year and Thinking in Textures won Best Independent Single/EP at the Australian Independent Records Awards. In January 2013, the work won Best Independent Release at the Rolling Stone Australia Awards for 2012. ",
-                    "buttonUrl":"faker.html"
+                    "buttonUrl":"articles/faker.php"
                     },
                     {
                     "articleNr":4,
+                    "id":"benjamin",
                     "mColClass":"mcol6",
                     "title":"Benjamin clementine",
                     "url":"images/benjamin.jpg",
                     "firstParagraph":"Benjamin Sainte-Clémentine is an English artist, poet, vocalist, composer, and musician. Born and raised in London, England, Clementine later moved to Paris, France becoming homeless as a teenager. There, his performances helped him to become a cult figure in the music and art scene. Moving back to London, he made his TV debut on the BBC programme Later With Jools Holland in 2013. A number of critics described him as becoming one of the great singer-songwriters of his generation and the future sound of London.",
-                    "buttonUrl":"benjamin.html"
+                    "buttonUrl":"articles/benjamin.php"
                     }
                     ]

@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link rel="stylesheet" href="css/layout.css">
-     <link rel="stylesheet" href="css/nav.css">
-     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/layout.css">
+     <link rel="stylesheet" href="../css/nav.css">
+     <link rel="stylesheet" href="../css/style.css">
 </head>
     <style>
 
@@ -14,24 +14,14 @@
     </style>
 
 <body>
-    <header class="col12">
-        <h1>My favourite bands</h1>
-        <img  class="firstLogo" src="images/keyboard.png" >
-    </header>
-    <nav class="scol12 mcol12">
-        <ul>
-            <li><a href=index.html>Main Page</a></li>
-            <li><a href=gallery.html>Gallery</a></li>
-            <li><a href=contactme.html>Contact me</a></li>
-        </ul>
-    </nav>
+    <?php include('header.php'); ?>
     <div class="row">
         <section class="scol12 mcol12">
             <div class="row">
                 <article class="scol12 mcol12">
                     <div class="box">
                     <h1 class="artitle">Julia Michaels</h1>
-                    <img class="articlePhoto" src="images/julia.jpg" style="float: left">
+                    <img class="articlePhoto" src="../images/julia.jpg" style="float: left">
                     <p>Julia Carin Cavazos (born November 13, 1993), known by her stage name Julia Michaels, is an American singer and songwriter from Davenport, Iowa. She began her career as a pop music songwriter, penning tracks that have been given to Selena Gomez, Demi Lovato, Fifth Harmony, Shawn Mendes, Britney Spears, Justin Bieber, Hailee Steinfeld, and Gwen Stefani. Michaels released her debut solo single with Republic Records in 2017, "Issues", which peaked at number 11 on the Billboard Hot 100 in the United States, was certified triple-platinum by the Recording Industry Association of America (RIAA), and garnered her Grammy Award nominations for Song of the Year and Best New Artist. Her major-label debut extended play, Nervous System (2017), peaked at number 48 on the Billboard 200 chart in the United States. She has also received nominations for MTV Music Video, Billboard Music, and American Music Awards.</p>
                     <p>Julia Michaels was born in Davenport, Iowa but moved to Santa Clarita, California, about 35 miles northwest of Los Angeles, with her family including her older sister Jaden who is also a songwriter. Her father, Juan Manuel Cavazos, is Mexican-Puerto Rican and changed his name to John Michaels to pursue an acting career.[1] Michaels began singing at age 12. When she was 14, she met songwriter Joleen Belle, with whom she wrote the theme song to "Austin and Ally" and many other songs for TV and film. At 19, she met Lindy Robbins, with whom she wrote "Fire Starter" for Demi Lovato and "Miss Movin' On" for Fifth Harmony.</p>
                     <p>Michaels has said her inspirations include Fiona Apple, Lisa Mitchell, Laura Marling, Missy Higgins, Paramore, Juliet Simms, Sarah Blasko, and The Fray.
@@ -43,22 +33,7 @@
             </div>
         </section>
     </div>
-    <div class="row">
-        <footer class="scol12 mcol12">
-            <div class="row">
-                <div class="scol12 mcol6">
-                    <div class="mapbox"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2302.4001530043024!2d25.265623315892086!3d54.75535088029849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd90e34177b4cd%3A0xe6b29d0e8d06f12c!2sFizik%C5%B3+g.+55%2C+Vilnius+08426!5e0!3m2!1sen!2slt!4v1544373130482" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-                </div>
-                <div class="scol12 mcol6">
-                   <adress>
-                        Adress: Fizikų str. 55<br>
-                        Phone number: 852345678<br>
-                        Email: inga@school.lt <br>
-                    </adress>
-                </div>
-            </div>
-        </footer>
-    </div>
+    <?php include('../footer.php'); ?>
    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
    <script>
 
