@@ -18,18 +18,26 @@
     <div class="modal"></div>
     <div class="row">
         <section class="scol12 mcol12">
-<!--
-            <div class="box">
-                <h1 class="artitle">Galerija</h1>
-
-                <div id="theDiv" class="container"></div>
-            </div>
--->
+            <div id="gallery0"></div>
+            <div id="gallery1"></div>
+            <div id="gallery2"></div>
+            <div id="gallery3"></div>
+            <div id="gallery4"></div>
         </section>
     </div>
     <?php include('footer.php'); ?>
     <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
     <script>
+        function dataGallery(galleryData){// grazina galerija su pavadinimu dezuteje
+        var boxDiv = $("<div>").addClass("box");
+        var containerDiv = $("<div>").addClass("container");
+
+        for(i=0;i<galleryData.images.length;i++){
+            $(containerDiv).append('<img id="theImg'+h+i+'" src="'+galleryData.images[i]+'" alt="'+galleryData.images[i].substring(galleryData.images[i].lastIndexOf('/')+1)+'"/>');
+
+        }
+        return $(boxDiv).append('<h1 class="artitle">'+galleryData.title+'</h1>').append(containerDiv);
+        }
 
         var parameter = {
                 dataType:"json",
@@ -38,7 +46,7 @@
             $.ajax(parameter).done(function(data){
                 console.log(data);
                 for(h=0;h<data.length;h++){
-                $("section").append(dataGallery(data[h]));//sudeda galerijas is JSON failo naudodamas funkcija
+                $('#gallery'+h+'').append(dataGallery(data[h]));//sudeda galerijas is JSON failo naudodamas funkcija i dezutes pagal ID
                 $("[id^=theImg]").click(function(){// nuotrauku reakcijos funkcijos
                     var imagePath = $(this).prop("src");
                     var image = $("<img>").attr("src", imagePath).attr("class","fullImg");
@@ -57,19 +65,6 @@
                 })
                 }
             })
-
-        function dataGallery(galleryData){// grazina galerija su pavadinimu dezuteje
-        var boxDiv = $("<div>").addClass("box");
-        var containerDiv = $("<div>").addClass("container");
-
-        for(i=0;i<galleryData.images.length;i++){
-            $(containerDiv).append('<img id="theImg'+h+i+'" src="'+galleryData.images[i]+'" alt="'+galleryData.images[i].substring(galleryData.images[i].lastIndexOf('/')+1)+'"/>');
-
-        }
-        return $(boxDiv).append('<h1 class="artitle" id="'+galleryData.id+'">'+galleryData.title+'</h1>').append(containerDiv);
-        }
-
-
     </script>
 </body>
 </html>

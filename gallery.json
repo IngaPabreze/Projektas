@@ -1,25 +1,20 @@
 [{
             "title":"Calvin Harris",
-            "id":"calvin",
             "images" : ["https://raw.githubusercontent.com/IngaPabreze/gallery/calvin/image1.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/calvin/image2.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/calvin/image3.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/calvin/image4.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/calvin/image5.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/calvin/image6.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/calvin/image7.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/calvin/image8.jpg"]
             },
             {
             "title":"Bastille",
-            "id":"bastille",
             "images" : ["https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image1.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image2.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image3.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image4.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image5.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image6.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image7.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image8.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image9.jpg"]
           },
             {
             "title":"Julia Michaels",
-            "id":"julia",
-            "images" : ["https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image1.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image2.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image3.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image4.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image5.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image6.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image7.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image8.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image9.jpg"]
+            "images" : ["https://raw.githubusercontent.com/IngaPabreze/gallery/julia/image1.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/julia/image2.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/julia/image3.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/julia/image4.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/julia/image5.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/julia/image6.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/julia/image7.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/julia/image8.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/julia/image9.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/julia/image10.jpg"]
           },
             {
             "title":"Chet Faker",
-            "id":"chet",
-            "images" : ["https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image1.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image2.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image3.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image4.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image5.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image6.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image7.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image8.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image9.jpg"]
+            "images" : ["https://raw.githubusercontent.com/IngaPabreze/gallery/chet/image1.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/chet/image2.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/chet/image3.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/chet/image4.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/chet/image5.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/chet/image6.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/chet/image7.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/chet/image8.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/chet/image9.jpg"]
           },
             {
             "title":"Benjamin clementine",
-            "id":"benjamin",
             "images" : ["https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image1.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image2.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image3.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image4.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image5.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image6.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image7.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image8.jpg", "https://raw.githubusercontent.com/IngaPabreze/gallery/bastille/image9.jpg"]
           }]

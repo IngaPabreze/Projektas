@@ -1,6 +1,5 @@
 [{
-                    "articleNr":1,
-                    "id":"calvin",
+                    "articleNr":0,
                     "mColClass":"mcol6",
                     "title":"Calvin Carris",
                     "url":"images/calvinharris.jpg",
@@ -8,8 +7,7 @@
                     "buttonUrl":"articles/calvinharris.php"
                     },
                     {
-                    "articleNr":2,
-                    "id":"bastille",
+                    "articleNr":1,
                     "mColClass":"mcol6",
                     "title":"Bastille",
                     "url":"images/bastille.jpg",
@@ -17,8 +15,7 @@
                     "buttonUrl":"articles/bastille.php"
                     },
                     {
-                    "articleNr":3,
-                    "id":"julia",
+                    "articleNr":2,
                     "mColClass":"mcol6",
                     "title":"Julia Michaels",
                     "url":"images/julia.jpg",
@@ -26,8 +23,7 @@
                     "buttonUrl":"articles/julia.php"
                     },
                     {
-                    "articleNr":5,
-                    "id":"chet",
+                    "articleNr":3,
                     "mColClass":"mcol6",
                     "title":"Chet Faker",
                     "url":"images/faker.jpg",
@@ -36,7 +32,6 @@
                     },
                     {
                     "articleNr":4,
-                    "id":"benjamin",
                     "mColClass":"mcol6",
                     "title":"Benjamin clementine",
                     "url":"images/benjamin.jpg",

@@ -18,7 +18,6 @@
         .flexCenter{
             display:flex;
             justify-content: center;
-
         }
         .logo2{
             margin-top: 0px;
@@ -66,9 +65,7 @@
             margin-top: 7px;
             margin-bottom: 7px;
             font-family: newcurier;
-
         }
-
         .center{
             margin:auto;
             margin-top: 40px;
@@ -81,12 +78,6 @@
             margin-top: 7px;
             margin-bottom: 7px;
         }
-
-/*
-        .dinline{
-        display: inline;
-*/
-/*        }*/
         body{
             margin: 0;
             font-family: monterey;
@@ -98,10 +89,6 @@
             background-color: rgba(12, 167, 149, 0.35);
             color: rgba(72, 112, 110, 1);
             text-shadow: 1px 1px teal;
-/*
-            padding-top: 0px;
-            padding-bottom: 0px;
-*/
             font-family: monterey;
             display: flex;
             flex-wrap: wrap;
@@ -128,7 +115,6 @@
          footer{
              background-color: rgba(12, 167, 149, 0.35);
              margin: 0px;
-/*             border: 10px double darkgrey;*/
         }
         .thumbnail{
             margin-bottom: 5px;
@@ -157,6 +143,7 @@
             background-color: lightgray;
             text-align: justify;
             padding: 30px;
+            padding-top: 20px;
             margin: 14px;
             border-top-right-radius: 50px;
             box-shadow: 5px 15px 18px;
@@ -186,7 +173,6 @@
         button:hover{
             background-color: black;
             cursor: pointer;
-
         }
         .button{
             background-color: rgba(23, 155, 140, 0.41);
@@ -209,7 +195,6 @@
             margin: 0px;
             margin-top: 0;
             margin-bottom: 10px;
-/*            border: 10px double darkgrey;*/
             font:
         }
         adress{

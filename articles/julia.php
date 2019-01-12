@@ -33,7 +33,7 @@
             </div>
         </section>
     </div>
-    <?php include('../footer.php'); ?>
+    <?php include('footer.php'); ?>
    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
    <script>
 
