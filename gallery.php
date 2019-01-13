@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="">
 <head>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Vidaloka" rel="stylesheet">
     <link rel="stylesheet" href="css/layout.css">
      <link rel="stylesheet" href="css/nav.css">
      <link rel="stylesheet" href="css/style.css">
@@ -47,6 +49,7 @@
                 console.log(data);
                 for(h=0;h<data.length;h++){
                 $('#gallery'+h+'').append(dataGallery(data[h]));//sudeda galerijas is JSON failo naudodamas funkcija i dezutes pagal ID
+                }
                 $("[id^=theImg]").click(function(){// nuotrauku reakcijos funkcijos
                     var imagePath = $(this).prop("src");
                     var image = $("<img>").attr("src", imagePath).attr("class","fullImg");
@@ -63,7 +66,6 @@
                         $(".modal").empty();
                         });
                 })
-                }
             })
     </script>
 </body>

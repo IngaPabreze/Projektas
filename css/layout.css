@@ -88,6 +88,25 @@
     }
 
 }
+@media screen and (max-width:1100px){
+        .fullImg{
+            display: block;
+			margin: auto;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+/*            margin-top: 150px;*/
+            width: 100%;
+		}
+}
+@media screen and (min-width:1101px){
+    .fullImg{
+            display: block;
+			margin: auto;
+            margin-top: 30px;
+            height: 85vh;
+		}
+}
 .row{
     display: flex;
     flex-wrap: wrap;
