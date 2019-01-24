@@ -17,11 +17,12 @@
         </div>
     </div>
     <?php function copywrite($createDate){
-    if($createDate < date('Y')) {
-        echo '&copy'.$createDate.'-'.date('Y');
-        }else{ echo '&copy'.date('Y');
-             }
-    }
+        if($createDate < date('Y')) {
+            echo '&copy'.$createDate.'-'.date('Y');
+            }else{ echo '&copy'.date('Y');
+                 }
+        }
     ?>
 </footer>
 </div>
+

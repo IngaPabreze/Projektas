@@ -1,20 +1,3 @@
-<!DOCTYPE html>
-<html lang="">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link href="https://fonts.googleapis.com/css?family=Vidaloka" rel="stylesheet">
-    <link rel="stylesheet" href="../css/layout.css">
-     <link rel="stylesheet" href="../css/nav.css">
-     <link rel="stylesheet" href="../css/style.css">
-</head>
-    <style>
-
-
-    </style>
-
-<body>
     <?php include('header.php'); ?>
     <div class="row">
         <section class="scol12 mcol12">
@@ -35,8 +18,5 @@
     </div>
     <?php include('footer.php'); ?>
    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
-   <script>
-
-    </script>
 </body>
 </html>

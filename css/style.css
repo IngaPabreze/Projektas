@@ -1,10 +1,10 @@
         input:focus{
-          border: 1px solid teal;
-          outline: none;
+            border: 1px solid teal;
+            outline: none;
         }
         input:required:focus,textarea:required:focus {
-          border: 1px solid black;
-          outline: none;
+            border: 1px solid black;
+            outline: none;
         }
         .copyw{
             margin-top: 0px;
@@ -21,7 +21,7 @@
             padding-left: 10px;
             padding-right: 10px;
             margin-top: 8px;
-            margin-bottom: 8px;
+            margin-bottom: -5px;
         }
         .flexCenter{
             display:flex;
@@ -89,11 +89,9 @@
             background-color: lightgray;
         }
         header{
-            margin: 0;
             background-color: rgba(12, 167, 149, 0.35);
-            color: rgba(72, 112, 110, 1);
-            text-shadow: 1px 1px teal;
-            font-family: monterey;
+            color:black;
+            font-family: 'Gochi Hand', cursive;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -121,7 +119,8 @@
               }
         .firstImg{
             width: 25%;
-            max-width: 200px;
+            min-width: 100px;
+            max-width: 130px;
             margin: 15px;
             margin-top: 0;
             margin-left: 0;
@@ -160,44 +159,50 @@
             font-size: 25px;
             padding: 10px;
         }
-        button, .button{
+        button.play{
+            background-image: url('../images/video.png');
+        }
+        button.readmore{
+            background-image: url('../images/readmore.png');
+        }
+        button.gallery{
+            background-image: url('../images/gallery.png');
+        }
+        input.send{
+            background-image: url('../images/send.png');
+        }
+        button.gallery,button.readmore,button.play, input.send{
+            border-radius: 5px;
+            height: 50px;
+            width: 85px;
+            background-repeat:no-repeat;
+            background-size:65px 40px;
+            background-position: 10px center;
+            margin: 2px;
             background-color: rgba(23, 155, 140, 0.41);
             color: teal;
-            font-family: monterey;
-            font-weight: bold;
-            text-decoration:overline;
-            height: 50px;
-            width: 100px;
-            padding: 15px;
         }
         button:hover, .button:hover{
             background-color: black;
             cursor: pointer;
         }
-/*
-        .button{
-            background-color: rgba(23, 155, 140, 0.41);
-            color: teal;
+        input.send{
+            width: 100%;
+            color: black;
             font-family: monterey;
-            font-weight: bold;
             text-decoration:overline;
-            height: 50px;
-            width: 100px;
-            padding: 15px;
+            font-size: 16px;
+            font-weight: bold;
+            padding-left: 40px;
         }
-*/
-         .width100{
+        input{
             width:100%;
-            margin-left: 0px;
-             margin-right: 0px;
-
         }
         section{
             background-color: rgba(4, 241, 206, 0.15);
             margin: 0px;
             margin-top: 0;
             margin-bottom: 10px;
-            font:
         }
         adress{
             display:block;

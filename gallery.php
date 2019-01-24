@@ -1,21 +1,3 @@
-<!DOCTYPE html>
-<html lang="">
-<head>
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link href="https://fonts.googleapis.com/css?family=Vidaloka" rel="stylesheet">
-    <link rel="stylesheet" href="css/layout.css">
-     <link rel="stylesheet" href="css/nav.css">
-     <link rel="stylesheet" href="css/style.css">
-</head>
-    <style>
-
-
-    </style>
-
-<body>
     <?php include('header.php'); ?>
     <div class="modal"></div>
     <div class="row">
@@ -57,9 +39,9 @@
                     $(".modal").fadeIn();
                 })
                 $("[id^=theImg]").hover(function(){
-                      $(this).css("cursor", "pointer").css("border", "5px solid rgba(4, 241, 206, 0.15)");
+                      $(this).css("cursor", "pointer").css("border", "5px solid rgba(4, 241, 206, 0.3)").css("margin", "3px");
                       }, function(){
-                      $(this).css("cursor", "default").css("border", "none");
+                      $(this).css("cursor", "default").css("border", "none").css("margin", "8px");
                     })
                 $(".modal").click(function(){
                         $(".modal").fadeOut(function(){

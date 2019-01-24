@@ -1,20 +1,3 @@
-<!DOCTYPE html>
-<html lang="">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link href="https://fonts.googleapis.com/css?family=Vidaloka" rel="stylesheet">
-    <link rel="stylesheet" href="../css/layout.css">
-     <link rel="stylesheet" href="../css/nav.css">
-     <link rel="stylesheet" href="../css/style.css">
-</head>
-    <style>
-
-
-    </style>
-
-<body>
     <?php include('header.php'); ?>
     <div class="row">
         <section class="scol12 mcol12">
@@ -30,14 +13,10 @@
                     <p>One of the most successful musicians in contemporary British popular culture, Harris appeared on Debrett's 2017 list of the most influential people in the United Kingdom. Additionally, Harris topped Forbes' list of the world's highest-paid DJs for five consecutive years from 2013 to 2017. Harris runs his own record label, Fly Eye Records.</p>
                     </div>
                 </article>
-
             </div>
         </section>
     </div>
     <?php include('footer.php'); ?>
    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
-   <script>
-
-    </script>
 </body>
 </html>
