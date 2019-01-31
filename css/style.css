@@ -29,14 +29,15 @@
         }
         .logo2{
             margin-top: 0px;
-            width: 55%;
-            height: 55%;
+            margin: 15px;
+            width: 12%;
+            height: 12%;
             overflow: hidden;
         }
         .secondLogo{
             margin-top: 40px;
-            width: 65%;
-            height: 65%;
+            width: 60%;
+            height: 60%;
             overflow: hidden;
         }
         .flex{
