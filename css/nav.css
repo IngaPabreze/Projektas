@@ -9,16 +9,16 @@ nav ul{
 nav ul li{
     padding: 12px;
     color: black;
-    background-color: rgb(102, 102, 102);
+    background-color: rgba(62, 63, 65, 0.9);
 }
 nav ul li a{
     text-decoration: none;
     text-transform: uppercase;
     font-family: monterey;
-    color: teal;
+    color: black;
     font-weight: bold;
 }
-nav ul li:hover{
+nav ul :hover{
     background-color: black;
-    color: white;
+    color: rgb(82, 122, 125);
 }

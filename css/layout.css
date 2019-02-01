@@ -59,6 +59,9 @@
 
 }
 @media screen and (min-width:801px){
+    section{
+        background-image: url('../images/logo.png');
+    }
     .videoBox, .video{
     display: block;
     margin: auto;
