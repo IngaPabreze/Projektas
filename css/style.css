@@ -107,7 +107,7 @@
             src:url(monterey.ttf);
         }
          footer{
-             background-color: 	rgb(102, 102, 102);
+             background-color: 	rgba(92, 102, 102, 1);
              margin: 0px;
         }
         .thumbnail{
@@ -166,7 +166,7 @@
             height: 50px;
             width: 85px;
             background-repeat:no-repeat;
-            background-size:65px 40px;
+            background-size:60px 40px;
             background-position: 10px center;
             margin: 2px;
             background-color: rgba(23, 155, 140, 0.41);
@@ -190,7 +190,7 @@
         }
         section{
             background-color:  rgb(82, 122, 122, 0.5);
-            background-image: url('../images/logo.png');
+/*            background-image: url('../images/logo.png');*/
 /*            opacity: 0.5;*/
             margin: 0px;
             margin-top: 0;
