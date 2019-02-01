@@ -7,7 +7,7 @@
             outline: none;
         }
         .copyw{
-            margin-top: 0px;
+            margin-top: 5px;
             margin-right: 20px;
         }
         .firstLogo{
@@ -27,12 +27,11 @@
             display:flex;
             justify-content: center;
         }
-        .logo2{
+        .mediaLogo{
             margin-top: 0px;
-            margin: 15px;
-            width: 12%;
-            height: 12%;
-            overflow: hidden;
+            margin: 10px;
+            width: 100px;
+            height: 100px;
         }
         .secondLogo{
             margin-top: 40px;
@@ -201,18 +200,20 @@
         }
         section{
             background-color: rgba(4, 241, 206, 0.15);
+            background-image: url('../images/logo.png');
             margin: 0px;
             margin-top: 0;
             margin-bottom: 10px;
         }
         adress{
             display:block;
-            font-size: 18px;
-            margin: 20px;
+            font-size: 22px;
+            font-weight: bold;
+            margin: 10px;
+            color: black;
             margin-bottom: 10px;
             padding: 25px;
             align-content: center;
-            background-color: lightgray;
-            box-shadow: 5px 10px 100px;
-            text-shadow: 0.7px 0.7px teal;
+            box-shadow: 5px 10px 20px;
+
         }

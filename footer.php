@@ -10,7 +10,7 @@
                 Phone number: <a href="tel:862212345" style="color:teal">8 622 12345 </a><br>
                 Email: <a href="mailto:inga.pabeze5@gmail.com" style="color:teal">inga.pabeze5@gmail.com</a> <br>
             </adress>
-            <div class="secondLogoBox "><a href="https://www.facebook.com/ingameksriunaite"><img src="images/facebook.png" class="logo2"></a><a href="https://linkedin.com/in/inga-pabrėžė-642920116"><img src="images/linkedin.png" class="logo2"></a></div>
+            <div class="flex"><a href="https://www.facebook.com/ingameksriunaite"><img src="images/facebook.png" class="mediaLogo"></a><a href="https://linkedin.com/in/inga-pabrėžė-642920116"><img src="images/linkedin.png" class="mediaLogo"></a><a href="https://github.com/IngaPabreze/Projektas"><img src="images/git.png" class="mediaLogo"></a></div>
              <div class="flex copyw">
                <?php echo copywrite(2019).'. All rights reserved.'; ?>
             </div>

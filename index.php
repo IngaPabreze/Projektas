@@ -2,7 +2,7 @@
     <div class="modal"></div>
     <div class="row">
         <section class="scol12 mcol12">
-            <div class="row rowDiv"><article class="scol12 mcol6"> <div class="flexCenter"><img src="images/logo.png" class="secondLogo" ></div></article></div>
+            <div class="row rowDiv"><article class="scol12 mcol6"></article></div>
         </section>
     </div>
     <?php include('footer.php'); ?>
