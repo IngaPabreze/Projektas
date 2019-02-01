@@ -8,6 +8,7 @@
         }
         .copyw{
             margin-top: 5px;
+            margin-bottom: 5px;
             margin-right: 20px;
         }
         .firstLogo{
@@ -111,7 +112,7 @@
             src:url(monterey.ttf);
         }
          footer{
-             background-color: rgba(12, 167, 149, 0.35);
+             background-color: rgba(84, 105, 109, 0.5);
              margin: 0px;
         }
         .thumbnail{
@@ -147,12 +148,6 @@
             border-top-right-radius: 50px;
             box-shadow: 5px 15px 18px;
         }
-        .mapbox{
-            padding: 20px;
-        }
-        .mapbox iframe{
-			width: 100%;
-		}
         .artitle{
             font-family: monterey;
             text-align: left;
@@ -201,19 +196,8 @@
         section{
             background-color: rgba(4, 241, 206, 0.15);
             background-image: url('../images/logo.png');
+/*            opacity: 0.5;*/
             margin: 0px;
             margin-top: 0;
             margin-bottom: 10px;
-        }
-        adress{
-            display:block;
-            font-size: 22px;
-            font-weight: bold;
-            margin: 10px;
-            color: black;
-            margin-bottom: 10px;
-            padding: 25px;
-            align-content: center;
-            box-shadow: 5px 10px 20px;
-
         }
