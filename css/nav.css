@@ -9,7 +9,7 @@ nav ul{
 nav ul li{
     padding: 12px;
     color: black;
-    background-color: rgba(84, 105, 109, 0.5);
+    background-color: rgb(102, 102, 102);
 }
 nav ul li a{
     text-decoration: none;
